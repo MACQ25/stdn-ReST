@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="rest.js"></script>
+  </head>
+  <body>
+    <p>This is the base of a rest API</p>
+
+    <div id="openingScreen">
+      <div id="login">
+        <input class="logInp" type="text" name="username" />
+        <input class="logInp" type="password" name="password" />
+        <button onclick="login()">Login</button>
+      </div>
+
+      <div id="register">
+        <input class="regInp" type="text" name="username" />
+        <input class="regInp" type="password" name="password" />
+        <button onclick="register()">Register</button>
+      </div>
+    </div>
+
+    <div id="newPost">
+      <input class="uploadF" id="val1" name="val1" type="text" />
+      <input class="uploadF" id="val2" name="val2" type="file" />
+      <input class="uploadF" id="val3" name="val3" type="text" />
+      <button onclick="newPost()">Post</button>
+    </div>
+  </body>
+</html>
